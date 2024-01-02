@@ -1,0 +1,35 @@
+<!--"doc" to call basic body-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900&display=swap">
+        <link rel="stylesheet" href="./quiz.css"> <!--"link"-->
+        <title>Quiz Project</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="game"> <!--pages for actual game-->
+                <div class="content">
+                    <h1 class="question"></h1> <!--default-->
+                    <div class="answers">
+                        
+                    </div>
+                </div>
+                <button class="submit">Submit</button> <!--not in content-->
+            </div>
+
+            <div class="result"> <!--page for game result-->
+                <h1>Congratulations</h1> <!--headline 1-->
+                <h3 class="correct"></h3>
+                <h3 class="wrong"></h3>
+                <h2 class="score"></h2>
+                <button class="play">Play again</button>
+            </div>
+
+        </div>
+        <script src = "./quiz.js"></script> 
+    </body>
+</html>

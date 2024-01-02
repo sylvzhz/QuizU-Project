@@ -1,0 +1,82 @@
+body{
+    background-color:goldenrod;
+    display: flex;
+    align-items: center; /*vertical!!!!!!!!!!!!*/
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 800px;
+    height: 500px;
+    background-color:white;
+    position: relative; /*!*/
+    border-radius: 60px;
+}
+
+.content{
+    padding: 50px; /*Padding is used to create space around an element's content, inside of any defined borders*/
+}
+
+/*.game{
+    display: none;
+} when designing results*/
+
+.question{
+    font-size: 40px;
+}
+
+.answer{
+    font-size: 24px;
+    margin-bottom: 20px; /*底边距*/
+    color: #333 /*softer color*/
+    
+}
+
+.submit{
+    background-color:darkgreen;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    position: absolute; /*element with an ABSOLUTE position is positioned relative to the nearest positioned ancestor!*/
+    bottom: 0; /*in this condition, according to the container*/
+    border-end-start-radius: 60px;
+    border-end-end-radius: 60px;
+}
+
+.result{
+    display: none;
+}
+
+.result{
+    padding: 50px; /*or display: flex */
+    text-align: center;
+}
+
+.result h1{
+    font-size: 50px;
+}
+
+.correct{
+    color: darkgreen;
+}
+
+.wrong{
+    color:red;
+}
+
+.play{
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    /*width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;*/
+    cursor: pointer;
+    padding: 10px 20px; /*top and bottom padding are 10px
+                        right and left padding are 5px*/
+}
